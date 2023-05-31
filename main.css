@@ -18,6 +18,14 @@ h2{
     text-align: center;
     font-size: large;
 }
+footer{
+display: flex;
+justify-content: center;
+padding: 5;
+background-color: grey;
+}
 .fa-discord{
     color: blue;
+    float: right;
+
 }

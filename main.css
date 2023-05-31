@@ -26,8 +26,14 @@ footer{
     background-color: grey;
     color: white;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 .fa-discord{
     color: blue;
 
+}
+#squad-s{
+    text-align: center;
+    font-size: large;
+    color: red;
 }

@@ -35,3 +35,41 @@ h2{
 .navbar li{
     float: left;
 }
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.fa-discord{
+    color: blue;
+    margin-bottom: 0%;
+}
+
+.fa-discord:hover{
+    color: royalblue
+}
+
+#squad-s{
+    text-align: center;
+    font-size: large;
+    color: red;
+}
+
+span a:link{
+    text-align: right;
+    margin-left: 75%;
+    color: grey;
+}
+
+span a:hover{
+    color: grey;
+}
+
+span a:visited{
+    color: grey;
+}

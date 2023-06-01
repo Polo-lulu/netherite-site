@@ -38,7 +38,12 @@ h2{
 main{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-
+    background-color: rgb(70, 70, 70);
+    display: block;
+    border: none;
+    padding: 0px;
+    margin: 10px;
+    height: 90px;
 }
 footer{
     position: fixed;

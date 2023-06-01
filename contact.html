@@ -23,28 +23,22 @@
         </header>
     </header>
     <main>
-         <form action="contact.php" method="post">
+        <section class="container">
+         <form class="form" action="contact.php" method="post">
             <!--Formulaire de demande-->
             <!--Demande d'information-->
-            <div class="st">
-                <span class="uj">
                     <label for="username">Pseaudo discord</label>
                     <input type="text" id="username" required placeholder="Wumpus#0000">
                 </span>
                 <br>
-                <span class="uc">
                     <label for="username-corpo">Nom de votre Corporation</label>
                     <input type="text" id="username-corpo" required placeholder="Netherite corp">
-                </span>
                 <br>
-                <span class="d">
                     <label for="date">Date ou vous demandez le services</label>
                     <input type="date" id="date">
-                </span>
                 <br>
             </div>
-            <!--"radio" pour les sevices demandé-->
-            <div class="ser">            
+            <!--"radio" pour les sevices demandé-->          
                 <label for="title">Services demandé</label>
                 <label for="s1">Escorte aérienne</label>
                 <input type="radio" id="s1" value="s1">
@@ -52,20 +46,16 @@
                 <input type="radio" id="s2" value="s2">
                 <label for="s3">Sécurisation événements</label>
                 <input type="radio" id="s3" value="s3">
-            </div>
-            <br>
-            <div class="res">            
+            <br>            
                 <!--Raison-->
                 <label for="raison">Vos raison</label>
                 <input type="text" id="raison" minlength="5" required placeholder="Car...">
+            <br>
+            <button type="submit" name="submit" class="btn1">Envoyer</button>
+            <br>
+            <button type="reset" class="btn2">reset</button>
             </div>
-            <br>
-
-
-        
-            <input type="reset">
-            <br>
-            <input type="submit">
+        </section>
         </form>
         </main>
         <footer>

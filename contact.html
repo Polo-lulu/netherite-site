@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/Styles/Images/logo_netherite.ico" />
+    <link rel="stylesheet" href="Styles/contact.css">
+    <script src="https://kit.fontawesome.com/11ed6a836c.js" crossorigin="anonymous"></script>
+    <title>Netherite Corp</title>
+</head>
+<body>
+    <header>
+        <header> 
+            <h1>Netherite Corporation</h1>
+            <h2>Bienvenue sur notre site officiel, le site vous permetra de vous auguillez dans vos choix </h2>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="">Notre équipe</a></li>
+                    <li><a href="">Nos services</a></li>
+                    <li><a href="contact.html">Nous contacter</a></li>
+                </ul>                
+            </nav>
+        </header>
+    </header>
+    <main>
+         <form action="contact.php" method="post">
+            <!--Formulaire de demande-->
+            <!--Demande d'information-->
+            <div class="st">
+                <span class="uj">
+                    <label for="username">Pseaudo discord</label>
+                    <input type="text" id="username" required placeholder="Wumpus#0000">
+                </span>
+                <br>
+                <span class="uc">
+                    <label for="username-corpo">Nom de votre Corporation</label>
+                    <input type="text" id="username-corpo" required placeholder="Netherite corp">
+                </span>
+                <br>
+                <span class="d">
+                    <label for="date">Date ou vous demandez le services</label>
+                    <input type="date" id="date">
+                </span>
+                <br>
+            </div>
+            <!--"radio" pour les sevices demandé-->
+            <div class="ser">            
+                <label for="title">Services demandé</label>
+                <label for="s1">Escorte aérienne</label>
+                <input type="radio" id="s1" value="s1">
+                <label for="s2">Escorte aérienne + sécurisation d'un lieu d'atterissage</label>
+                <input type="radio" id="s2" value="s2">
+                <label for="s3">Sécurisation événements</label>
+                <input type="radio" id="s3" value="s3">
+            </div>
+            <br>
+            <div class="res">            
+                <!--Raison-->
+                <label for="raison">Vos raison</label>
+                <input type="text" id="raison" minlength="5" required placeholder="Car...">
+            </div>
+            <br>
+
+
+        
+            <input type="reset">
+            <br>
+            <input type="submit">
+        </form>
+        </main>
+        <footer>
+            <hr>
+            <a href="https://discord.gg/FgFnkW7UsB" title="discord" target="_blank">
+                <i class="fa-brands fa-discord"></i>
+                </a>
+            <span>
+                <a href="https://github.com/Polo-lulu/netherite-site" title="Github" target="_blank" id="fg">Crée par Lou & Louarn</a>
+            </span>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body{
+    background-image: url(Images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: right;
+    font-size: 50px;
+}
+h2{
+    text-align: right;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: azure;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: grey;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+.navbar a:hover{
+    background-color: rgb(99, 99, 99);
+}
+.navbar li{
+    float: right;
+}
+#t1{
+    text-align: center;
+    font-size: large;
+}
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.fa-discord{
+    color: blue;
+    margin-bottom: 0%;
+}
+.fa-discord:hover{
+    color: royalblue
+}
+#squad-s{
+    text-align: center;
+    font-size: large;
+    color: red;
+}
+span a:link{
+    text-align: right;
+    margin-left: 75%;
+    color: white;
+}
+span a:hover{
+    color: blue;
+}
+span a:visited{
+    color: rgb(224, 224, 224);
+}

@@ -57,10 +57,9 @@ label{
 
 .container{
     background-color: grey;  
-    margin-right: 40%;
-    margin-left: auto;
     max-width: 400px;
     border-radius: 20px;
+    margin: auto;
     
 }
 
